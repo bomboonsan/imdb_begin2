@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply bg-[#DDD];
+}
+
+.result {
+    @apply mt-2 mb-6;
+}
+
+.result p {
+    @apply text-neutral-400 font-medium mb-2;
+}
+
+.result p strong {
+    @apply text-neutral-900 mr-4 w-16 inline-block;
+}
