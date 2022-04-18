@@ -72,8 +72,8 @@ export default function Home() {
         <div>Latest Comic: {props.title}</div>
         <div>Last scraped: {props.lastScraped}</div> */}
 
-        <h1 className="text-4xl text-yellow-600 font-bold text-center mt-3">IMDB</h1>
-        <span className='block text-center text-sm text-neutral-400 mb-6'>by Bomboonsan</span>
+        <h1 className="text-4xl text-black bg-yellow-400 py-1 px-2 rounded-lg font-bold text-center mt-3 inline-block font-extrabold">IMDb</h1>
+        <span className='block text-sm text-neutral-400 mb-6'>by Bomboonsan</span>
 
         <input className="w-full py-1 px-4 border border-nuetral-300 rounded-lg bg-[#fafafa] mb-4 shadow-sm" value={imdbID}  name="imdbID" onChange={e => setimdbID(e.target.value)} />
         
